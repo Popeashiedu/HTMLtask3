@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.wrapper{
+    background-color:#ffff;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+    height: 100vh;
+    margin-top: 15%;
+
+}
+
+.img img{
+    margin: 0 1rem;
+    border-radius: 15px;
+    box-shadow: 5px 10px 10px grey;    
+}
+
+.img{
+    margin-right: 1.5rem;
+}
+
+
+.info{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+h1{
+    margin-bottom: 1.2rem;
+}
+
+span{
+    font-weight: bold;
+}
+.bio{
+    text-align: justify;
+}
+.more-data{
+    margin-top: 1.2rem;
+}
+
+.more-data p{
+    margin: 0.2rem 0rem;
+
+}
+
+.icon{
+    height: 0.7rem;
+}
+
+.btn{
+    margin-top: 1.5rem;
+    display: flex;
+    font-size: 30px;
+    
+    
+}
+
+button{
+    padding: 1rem;
+    position: relative;
+    width: 10rem;
+    margin-right: 2rem;
+    border-style: none;
+    background-color: #ff3d65;
+    color: ghostwhite;
+    cursor: pointer;
+    
+}
+
+.form{
+    height: 75vh;
+    width: 30%;
+    align-self: center;
+    background-color: #000509;
+    margin-bottom: 3rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inner-form{
+    position: relative;
+    top: -0.5rem;
+    height: 65vh;
+    background-color: #fff;
+    width: 95%;
+    border-radius: 25px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+   
+}
+.circle{
+    background-color: honeydew;
+    height: 2rem;
+    border-radius: 60%;
+    width: 10%;
+    align-self: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+h3{
+    color: black;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+.inputs{
+    align-self: center;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.labels{
+    align-self: center;
+    margin-bottom: 0.5rem;
+    width: 80%;
+
+}
+
+
+.insert{
+    height: 2rem;
+}
+#feedback{
+    height: 3rem;
+}
+
+#submit{
+    position: relative;
+    left: 5%;
+}
